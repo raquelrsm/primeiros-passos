@@ -1,0 +1,68 @@
+body{
+
+    background-color: black;
+}
+#botão{
+    color: goldenrod;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+h1{
+    text-decoration: none;
+    color: goldenrod;
+    text-align: center;
+}
+
+#img{
+   
+    width:500px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 20px;
+    float: left;
+}
+
+#cabeçalho{
+    color: goldenrod;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+h2{
+    color: goldenrod;
+    font-size: 20px;
+}
+
+#imgUsuario{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#linha-vertical {
+    height: 500px;
+    border-right: 4px solid goldenrod;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}

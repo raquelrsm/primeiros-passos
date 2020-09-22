@@ -1,0 +1,75 @@
+body{
+
+    background-color: black;
+}
+#corpo-da-pagina {
+    text-align: center;
+    display: inline-table;
+    margin-left: 250px;
+
+}
+
+.table{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+h1{
+    font-size: 50px;
+    color: goldenrod;
+    text-align: left
+}
+
+h3{
+    font-size: 25px;
+    color: goldenrod;
+    text-align: left;
+
+}
+
+#imgperfil{
+
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#cabeçalho{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+#cabeçalho-rodapé{
+    margin: 0;
+    color: white;
+    background-color:goldenrod;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+#legenda{
+    color:black;
+    font-size: 25px;
+    background-color: goldenrod;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
