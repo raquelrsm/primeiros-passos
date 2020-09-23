@@ -1,0 +1,52 @@
+programa
+{
+	
+	funcao inicio()
+	{
+  caracter operacao
+  
+  real resultado = 0.0, numero1, numero2
+
+  escreva("Digite o primeiro número: ")
+  leia(numero1)
+
+  escreva("Agora digite uma das operações ( + - * / ): ")
+  leia(operacao)
+
+  /* Verifica qual foi a operação selecionada */
+
+  escreva("Digite o segundo número: ")
+  leia(numero2)
+
+  escreva("\n")
+  
+  
+  
+  se (operacao == '+')
+  {
+   resultado = numero1 + numero2
+   
+  }
+  senao  se(operacao == '-')
+  {
+   resultado = numero1 - numero2
+   
+  }
+  senao se(operacao == '/')
+  {
+   resultado = numero1 / numero2
+   
+  }
+  senao se(operacao == '*')
+  {
+   resultado = numero1 * numero2
+  } 
+
+  limpa()
+  
+  escreva("Resultado:\n\n")
+  escreva(numero1, " ", operacao, " ", numero2, " = ", resultado)
+  
+  escreva("\n")
+ }
+}
