@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Exemplo de JavaScript Externo</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+       <h1>Comparando números</h1>
+    </header>
+    <form>
+      <div>
+        <label for="number1" >
+          <b>Número 1:</b>
+          <input id="input1" type="number" placeholder="Digite Aqui" style="text-align:center"/>
+        </label>
+      </div>
+      <div>
+        <label for="number2">
+          <b>Número 2:</b>
+          <input id="input2" type="number" placeholder="Digite Aqui" style="text-align:center"/>
+        </label>
+      </div>
+    <button type="button" style="text-align:center" id="botaoChecar" onclick="saoDiferentes()">Checar se são diferentes</button>
+    <button type="button" style="text-align:center" id="botaoResetar" onclick="resetar()">RESET</button>
+    </form>
+    </body>
+</html>
